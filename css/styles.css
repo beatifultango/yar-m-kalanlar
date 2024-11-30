@@ -10,9 +10,51 @@ body {
   font-family: Parkinsans, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  justify-content: center;
+  justify-content:center;
 }
 .container {
   width: 480px;
   margin: 0 auto;
+}
+.header-container{
+    display: block;
+    justify-content: center;
+    
+}
+
+.navbar-fluid{
+    display: block;
+    align-items: center;
+
+
+
+}
+.navbar{
+  align-items: center;
+  background-color: #611c17;
+  width:480px;
+  
+  
+  
+
+
+}
+.navbar-list{
+  list-style-type: none;
+  margin:40px;
+  text-align: center;
+  
+  
+}
+button{
+  background: transparent;
+  outline: none;
+  border: none;
+  font-family:Sour Gummy,sans-serif;
+  font-size: 24px;
+  margin:40px;
+  color:rgb(204, 213, 221);
+}
+.dükkan{
+  margin-bottom: 300px;
 }
