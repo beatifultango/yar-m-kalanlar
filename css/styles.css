@@ -10,51 +10,117 @@ body {
   font-family: Parkinsans, sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  justify-content:center;
+  justify-content: center;
 }
 .container {
   width: 480px;
   margin: 0 auto;
 }
-.header-container{
-    display: block;
-    justify-content: center;
-    
+.header-container {
+  display: block;
+  justify-content: center;
 }
 
-.navbar-fluid{
-    display: block;
-    align-items: center;
-
-
-
-}
-.navbar{
+.navbar-fluid {
+  display: block;
   align-items: center;
-  background-color: #611c17;
-  width:480px;
-  
-  
-  
-
-
 }
-.navbar-list{
+.navbar {
+  align-items: center;
+
+  width: 480px;
+}
+/* .navbar-list{
   list-style-type: none;
   margin:40px;
   text-align: center;
   
   
-}
-button{
+} */
+button {
   background: transparent;
   outline: none;
   border: none;
-  font-family:Sour Gummy,sans-serif;
+  font-family: Sour Gummy, sans-serif;
   font-size: 24px;
-  margin:40px;
-  color:rgb(204, 213, 221);
+  margin: 40px;
+  color: rgb(204, 213, 221);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  display:inline;
+  
 }
-.dükkan{
-  margin-bottom: 300px;
+
+
+.menu-toggle {
+  display: ;
+}
+.navbar{
+  display: flex;
+  gap:50px;
+}
+.overlay{
+  position: relative;
+  padding-top:50px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  
+  
+}
+.navbar-close-menu .close{
+  position: fixed;
+  justify-content: center;
+  display: block;
+  cursor:pointer;
+}
+
+.navbar-close-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #611c17;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  visibility: hidden;
+  opacity: 0;
+  list-style-type: none;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
+}
+.menu-toggle:checked ~ .navbar-close-menu {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+}
+.menu-toggle {
+  position: absolute;
+  display: ;
+  cursor: pointer;
+}
+
+.close-icon{
+  cursor: pointer;
+ 
+  
+}
+.navbar-close-menu a{
+  display: block;
+  text-align: center;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+
+  
+
+
+}
+.navbar-close-menu a:hover{
+  background-color: #360606;
 }
