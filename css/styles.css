@@ -38,7 +38,7 @@ body {
 .navbar {
   align-items: center;
   display: flex;
-  gap: 400px;
+  gap: 300px;
   width: 480px;
   padding-top: 50px;
 }
@@ -81,6 +81,11 @@ button {
   display: block;
   top: 20px;
   right: 20px;
+  
+}
+.close{
+  margin-bottom:200px;
+  
 }
 
 .navbar-close-menu {
@@ -100,6 +105,11 @@ button {
   list-style-type: none;
   transition: opacity 0.3s ease-in-out, visibility 0.3s ease-in-out;
 }
+.navbar-list{
+  margin-top:200px;
+}
+
+
 
 .menu-toggle:checked ~ .navbar-close-menu {
   visibility: visible;
