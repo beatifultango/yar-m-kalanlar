@@ -20,12 +20,13 @@ body {
 .header-container {
   display: block;
   justify-content: center;
-  height:80px;
+  
 }
-.logo{
+.navbar .logo{
   width: auto;
   height: auto;
   max-width: 100%;
+  display: inline-block;
 }
 
 .navbar-fluid {
@@ -61,7 +62,7 @@ button {
 .menu-svg {
   /* position: absolute; */
   cursor: pointer;
-  margin-left:500px;
+  margin-left:400px;
 
 }
 
