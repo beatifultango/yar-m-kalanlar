@@ -20,12 +20,19 @@ body {
 .header-container {
   display: block;
   justify-content: center;
-  width: 480px;
+  height:80px;
+}
+.logo{
+  width: auto;
+  height: auto;
+  max-width: 100%;
 }
 
 .navbar-fluid {
-  display: block;
-  align-items: center;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  
 }
 .navbar {
   align-items: center;
