@@ -11,10 +11,10 @@ body {
   font-optical-sizing: auto;
   font-style: normal;
   justify-content: center;
-  width: 480px;
+  width: 375px;
 }
 .container {
-  width: 480px;
+  width: 375px;
   margin: 0 auto;
 }
 .header-container {
@@ -38,9 +38,9 @@ body {
 .navbar {
   align-items: center;
   display: flex;
-  gap: 300px;
-  width: 480px;
-  padding-top: 50px;
+  gap: 50px;
+  width: 375px;
+  padding-top: 10px;
 }
 
 button {
@@ -48,9 +48,8 @@ button {
   outline: none;
   border: none;
   font-family: Sour Gummy, sans-serif;
-  font-size: 150px;
-  font-weight: 100px;
-  margin: 40px;
+  font-size: 15px;
+  font-weight: 500px;
   color: rgb(204, 213, 221);
   cursor: pointer;
   align-items: center;
@@ -84,7 +83,7 @@ button {
   
 }
 .close{
-  margin-bottom:200px;
+  margin-bottom:100px;
   
 }
 
@@ -104,9 +103,6 @@ button {
   opacity: 0;
   list-style-type: none;
   transition: opacity 0.2s ease-in, visibility 0.3s ease-in-out;
-}
-.navbar-list{
-  margin-top:200px;
 }
 
 
@@ -136,7 +132,7 @@ button {
   
 }
 .navbar-list .anasayfa{
-  margin-top: 100px;
+  margin-top: 10px;
 }
 .navbar-close-menu a:hover {
   background-color: #3a3636;
