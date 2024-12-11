@@ -16,13 +16,14 @@ body {
 .container {
   width: 375px;
   margin: 0 auto;
+  
 }
 .header-container {
   display: block;
   justify-content: center;
-  
+
 }
-.navbar .logo{
+.navbar .logo {
   width: auto;
   height: auto;
   max-width: 100%;
@@ -33,10 +34,8 @@ body {
   display: flex;
   flex-wrap: nowrap;
   justify-content: center;
-  
 }
 .navbar {
-  align-items: center;
   display: flex;
   gap: 50px;
   width: 375px;
@@ -61,12 +60,7 @@ button {
 .menu-svg {
   position: absolute;
   cursor: pointer;
- 
- 
-  
-
 }
-
 
 .menu-toggle {
   display: none;
@@ -77,7 +71,6 @@ button {
   display: flex;
   margin-left: 150px;
   margin-top: 20px;
-  
 }
 .navbar-close-menu .close {
   position: absolute;
@@ -85,11 +78,9 @@ button {
   display: block;
   top: 20px;
   right: 20px;
-  
 }
-.close{
-  margin-bottom:100px;
-  
+.close {
+  margin-bottom: 100px;
 }
 
 .navbar-close-menu {
@@ -98,7 +89,7 @@ button {
   left: 0;
   width: 100%;
   height: 75vh;
-  background:rgb(155, 18, 9);
+  background: rgb(155, 18, 9);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -109,8 +100,6 @@ button {
   list-style-type: none;
   transition: opacity 0.2s ease-in, visibility 0.3s ease-in-out;
 }
-
-
 
 .menu-toggle:checked ~ .navbar-close-menu {
   visibility: visible;
@@ -126,7 +115,6 @@ button {
 .close:hover {
   cursor: pointer;
   background-color: rgb(200, 214, 225);
-  
 }
 .navbar-close-menu a {
   display: block;
@@ -134,11 +122,34 @@ button {
   width: 100%;
   align-items: center;
   text-decoration: none;
-  
 }
-.navbar-list .anasayfa{
+.navbar-list .anasayfa {
   margin-top: 10px;
 }
 .navbar-close-menu a:hover {
   background-color: #3a3636;
+}
+.card-line{
+  
+}
+.card-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card{
+  margin-bottom:50px;
+}
+.images{
+  margin:80px;
+  
+
+}
+.text{
+  font-size: 16px;
+  font-family:Parkinsans,sans-serif;
+  font-weight: 400;
+  color:black;
+  text-align: center;
+
 }
