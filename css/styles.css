@@ -129,27 +129,21 @@ button {
 .navbar-close-menu a:hover {
   background-color: #3a3636;
 }
-.card-line{
-  
+.all-cards{
+  padding:20px;
 }
-.card-area{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.card-text{
+  height: 56px;
+  padding: 10px;
+  font-size: 15px;
+  font-family: Parkinsans, sans-serif;
+  font-weight: 200;
 }
-.card{
-  margin-bottom:50px;
-}
-.images{
-  margin:80px;
-  
+.card:hover{
+  cursor: pointer;
 
+  transition: width 250ms, linear,cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.text{
-  font-size: 16px;
-  font-family:Parkinsans,sans-serif;
-  font-weight: 400;
-  color:black;
-  text-align: center;
-
+.images:hover{
+ 
 }
