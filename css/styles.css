@@ -16,12 +16,10 @@ body {
 .container {
   width: 375px;
   margin: 0 auto;
-  
 }
 .header-container {
   display: block;
   justify-content: center;
-
 }
 .navbar .logo {
   width: auto;
@@ -129,25 +127,66 @@ button {
 .navbar-close-menu a:hover {
   background-color: #3a3636;
 }
-.all-cards{
-  padding:20px;
+.all-cards {
+  padding: 20px;
 }
-.card-text{
+.card-text {
   height: 56px;
   padding: 10px;
   font-size: 15px;
   font-family: Parkinsans, sans-serif;
   font-weight: 200;
 }
-.card:hover{
+.card:hover {
   cursor: pointer;
 
-  transition: width 250ms, linear,cubic-bezier(0.075, 0.82, 0.165, 1);
+  transition: width 250ms, linear, cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-.images:hover{
- transition: 5ms cubic-bezier(0.075, 0.82, 0.165, 1);
+.images:hover {
+  transition: 5ms cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
-footer{
-  width: ;
+footer {
+  position: relative;
+  background-color: #eadfe2;
+  gap: 2px;
+}
+.footer-text {
+  margin: 10px;
+  text-align: start;
+}
+.footer-navbar {
+  margin: 5px;
+}
+.footer-contact {
+  margin: 5px;
+}
+.footer-navbar a {
+  text-decoration: none;
+  color: #3a3636;
+}
+.footer-contact a {
+  text-decoration: none;
+  color: #3a3636;
+}
+.footer-navbar a:hover {
+  color: red;
+  cursor: pointer;
+}
+
+.footer-contact a:hover {
+  color: red;
+  cursor: pointer;
+}
+.footer-socials {
+  display: flex;
+  list-style-type: none;
+  margin: 5px;
+  gap: 10px;
+}
+
+.social-list {
+  position: absolute;
+  top: 150px;
+  right: 50px;
 }
