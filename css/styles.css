@@ -137,7 +137,62 @@ button {
 .navbar-list:hover{
   font-size: 20px;
 }
+.first-div{
+  text-align: center;
+  
+}
+.first-h1{
+  text-align: left;
+  padding-left: 10px;
+}
 
+.card{
+  margin-left:30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-overlay{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 310px;
+  height: 70%;
+  background-color: rgba(27, 25, 25,0.7);
+  transform: rotate(100%);
+  color: aliceblue;
+  transition: transform 250ms ease-in-out cubic-bezier(0.100, 0.90, 0.165, 1);
+  opacity: 0;
+  
+}
+
+.card-overlay .card-overlay-explain{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin: 50px;
+  line-height: 1.5;
+  color: aliceblue;
+}
+.card-overlay-text{
+  text-decoration: none;
+  color: azure;
+}
+
+.card:hover .card-overlay {
+  transform: translateY(0);
+  opacity: 1;
+  transition: width 0.3s ease-in-out;
+  text-align: center;
+  vertical-align: middle;
+  
+  
+  
+  
+  
+
+}
 .card-text {
   height: 56px;
   padding: 10px;
@@ -145,8 +200,12 @@ button {
   font-family: Parkinsans, sans-serif;
   font-weight: 200;
 }
+.all-cards{
+  margin-top: 20px;
+}
 .card:hover {
   cursor: pointer;
+  
 
   transition: width 250ms, linear, cubic-bezier(0.075, 0.82, 0.165, 1);
 }
