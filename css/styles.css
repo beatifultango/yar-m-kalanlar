@@ -98,7 +98,7 @@ button {
   top: 0;
   right: 0;
   width: 100%;
-  height: 50%;
+  padding-bottom:40px;
   background: rgb(14, 1, 1);
   display: flex;
   flex-direction: column;
@@ -121,7 +121,6 @@ button {
   cursor: pointer;
 }
 
-
 .navbar-close-menu a {
   display: block;
   text-align: center;
@@ -138,7 +137,7 @@ button {
 .navbar-list:hover {
   font-size: 20px;
 }
-.nav-list:hover{
+.nav-list:hover {
   font-size: 1.2em;
 }
 .first-div {
@@ -222,7 +221,7 @@ footer {
   color: black;
 }
 .footer-contact {
-  margin: 5px;
+  margin: 10px;
   color: black;
 }
 .footer-navbar a {
@@ -245,11 +244,29 @@ footer {
   display: flex;
   list-style-type: none;
   margin: 5px;
-  gap: 10px;
+  gap: 15px;
 }
 
 .social-list {
   position: absolute;
   top: 150px;
   right: 50px;
+  
+}
+
+
+
+
+.first-container {
+  text-align: start;
+  margin: 30px;
+}
+
+.row {
+  margin: 30px;
+}
+
+.images:hover {
+  color: transparent;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
