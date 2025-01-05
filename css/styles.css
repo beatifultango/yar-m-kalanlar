@@ -98,7 +98,7 @@ button {
   top: 0;
   right: 0;
   width: 100%;
-  padding-bottom:40px;
+  padding-bottom: 40px;
   background: rgb(14, 1, 1);
   display: flex;
   flex-direction: column;
@@ -200,7 +200,6 @@ button {
 }
 .card:hover {
   cursor: pointer;
-
   transition: width 250ms, linear, cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 .images:hover {
@@ -251,11 +250,7 @@ footer {
   position: absolute;
   top: 150px;
   right: 50px;
-  
 }
-
-
-
 
 .first-container {
   text-align: start;
@@ -269,4 +264,55 @@ footer {
 .images:hover {
   color: transparent;
   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.first-container-artists {
+  display: block;
+  justify-content: center;
+  padding-left: 10px;
+  
+}
+.artist-explain{ 
+  margin:20px;
+  font-size: 16px;
+  line-height: 1.5;
+
+}
+
+.artist {
+  display: block;
+  justify-self: center;
+  margin: 20px;
+}
+.artist-card {
+  margin-bottom: 0px;
+  z-index: 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.artist-overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 70%;
+  opacity: 0;
+  transition: transform 150ms ease-in cubic-bezier(0.015, 0.10, 0.050, 1);
+  margin-top:40%;
+  
+}
+.artist-overlay-explain {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 300;
+  font-size: 14px;
+  color: aliceblue;
+  line-height: 1.5;
+}
+.artist .artist-card:hover .artist-overlay {
+  transform: translateY(0);
+  opacity: 1;
+  transition: width 0.3s ease-in;
+  text-align: center;
+  
 }
