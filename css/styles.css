@@ -32,18 +32,16 @@ body {
   height: auto;
   max-width: 100%;
   display: inline-block;
-
 }
 
 .navbar-fluid {
   display: flex;
   flex-wrap: nowrap;
-
 }
 
 .overlay ul {
   width: 65%;
-  height:75%;
+  height: 75%;
   display: none;
   border: 2px rgb(42, 44, 45) solid;
 }
@@ -52,7 +50,6 @@ body {
   display: flex;
   gap: 50px;
   padding-top: 10px;
-  
 }
 
 button {
@@ -82,7 +79,6 @@ button {
 .overlay {
   position: relative;
   display: inline-block;
-  
 }
 .navbar-close-menu .close {
   position: absolute;
@@ -136,7 +132,7 @@ button {
   width: 100%;
   align-items: center;
   text-decoration: none;
-  margin-top:30px;
+  margin-top: 30px;
 }
 .navbar-list .nav-list {
   margin-top: 10px;
@@ -224,7 +220,6 @@ footer {
   justify-content: center;
   align-self: center;
   padding-left: 20px;
-  
 }
 .footer-text {
   margin: 10px;
@@ -238,14 +233,9 @@ footer {
 .footer-contact {
   margin: 10px;
   color: black;
-  
 }
-.footer-navbar a {
-  text-decoration: none;
 
-}
 .footer-contact a {
-  text-decoration: none;
   color: black;
 }
 .footer-navbar a:hover {
@@ -259,7 +249,6 @@ footer {
 }
 .footer-socials {
   display: flex;
-  list-style-type: none;
   margin: 50px;
   gap: 15px;
 }
@@ -268,9 +257,7 @@ footer {
   position: absolute;
   top: 150px;
   right: 50px;
-  
 }
-
 
 .first-container {
   text-align: start;
