@@ -43,6 +43,7 @@ body {
 
 .overlay ul {
   width: 65%;
+  height:75%;
   display: none;
   border: 2px rgb(42, 44, 45) solid;
 }
