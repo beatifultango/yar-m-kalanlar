@@ -19,13 +19,12 @@ body {
   background-color: #fff;
 }
 .header {
-  margin-top: 30px;
-  
+  margin: 70px;
 }
 .header-container {
-  display: block;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 300px;
 }
 
 .navbar .logo {
@@ -71,9 +70,6 @@ button {
 .menu-svg {
   position: absolute;
   cursor: pointer;
-  margin-left:100px;
-  
-  
 }
 
 .menu-toggle {
@@ -83,6 +79,10 @@ button {
 .overlay {
   position: relative;
   display: inline-block;
+}
+.close-icon {
+  display: block;
+  width: 100%;
 }
 .navbar-close-menu .close {
   position: absolute;
@@ -144,8 +144,8 @@ button {
 .navbar-close-menu a:hover {
   transition: cubic-bezier();
 }
-.navbar-close-menu .navbar-list a:active{
- background-color:rgb(84, 24, 143);
+.navbar-close-menu .navbar-list a:active {
+  background-color: rgb(84, 24, 143);
 }
 
 .navbar-list:hover {
@@ -229,30 +229,35 @@ footer {
   text-align: start;
   padding-left: 20px;
 }
+
+.footer-logo{
+  width: 100px;
+}
 .footer-text {
-  margin-bottom:10px;
+  margin-bottom: 10px;
   text-align: start;
 }
+
+.footer-parent-navbar{
+  display: block;
+  justify-content: left;
+}
 .footer-navbar {
-  margin-top:5px;
+  margin-top: 5px;
   color: black;
   list-style-type: none;
-  
-  
 }
-.footer-navbar a{
+.footer-navbar a {
   text-decoration: none;
-  
 }
 .footer-contact {
-  
   color: black;
 }
 
 .footer-contact a {
   color: black;
   text-decoration: none;
-  gap:20px;
+  gap: 20px;
 }
 .footer-navbar a:hover {
   color: rgb(129, 122, 122);
@@ -271,17 +276,11 @@ footer {
 }
 .footer .contacts {
   list-style-type: none;
-  margin-top:5px;
-  
-  
+  margin-top: 5px;
 }
 
-.footer .contact .contacts{
+.footer .contact .contacts {
   text-decoration: none;
-  
-  
-
-  
 }
 
 .social-list {
@@ -349,4 +348,224 @@ footer {
   opacity: 1;
   transition: width 0.3s ease-in;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  body {
+    font-family: Parkinsans, sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+  }
+  .container {
+    min-width: 768px;
+    margin: 0 auto;
+  }
+  .logo {
+    width: 250px;
+  }
+  .navbar-fluid {
+  }
+
+  .overlay ul {
+    width: 65%;
+    height: 75%;
+    display: none;
+    border: 2px rgb(42, 44, 45) solid;
+  }
+
+  .navbar {
+    display: flex;
+    gap: 50px;
+    padding-top: 10px;
+  }
+
+  button {
+    font-size: 40px;
+    font-weight: 400px;
+
+    padding-top: 50px;
+  }
+
+  .menu-svg {
+    width: 100px;
+  }
+
+  .navbar-close-menu {
+  }
+
+  .close-icon .close {
+    width: 50px;
+  }
+
+  .navbar-close-menu a {
+    margin-top: 40px;
+  }
+  .navbar-close-menu .a:hover {
+    transition: all 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+  }
+
+  .navbar-list:hover {
+    font-size: 50px;
+  }
+  .nav-list:hover {
+    font-size: 1.2em;
+  }
+  .first-div {
+    text-align: justify;
+  }
+  .first-h1 {
+    text-align: start;
+    padding-left: 10px;
+    font-size: 50px;
+  }
+  .page-explain {
+    font-size: 25px;
+  }
+
+  .images {
+    width: 700px;
+    height: auto;
+  }
+
+ 
+  .card-overlay-text {
+    text-decoration: none;
+    color: azure;
+  }
+
+ 
+  .card-text {
+    height: 56px;
+    margin: 10px;
+    font-size: 30px;
+    font-family: Parkinsans, sans-serif;
+    font-weight: 200;
+  }
+ 
+ 
+  .images:hover {
+    transition: 5ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  footer {
+    margin-top:30px;
+    position: relative;
+    background-color: #fff;
+    gap: 10px;
+    display: block;
+    text-align: center;
+    padding-left: 20px;
+  }
+  .footer-text {
+    margin: 10px;
+    
+    font-size: 30px;
+  }
+  .footer-navbar {
+   font-size: 30px;
+   
+  }
+  .footer-navbar a {
+    text-decoration: none;
+  }
+  .contacts {
+    font-size: 30px;
+  }
+
+  .footer-contact a {
+    color: black;
+    text-decoration: none;
+    gap: 20px;
+   
+  }
+  .footer-navbar a:hover {
+    color: rgb(129, 122, 122);
+    cursor: pointer;
+  }
+
+  .footer-contact a:hover {
+    color: rgb(129, 122, 122);
+    cursor: pointer;
+  }
+  .footer-socials {
+    display: flex;
+    margin: 50px;
+    gap: 15px;
+    list-style-type: none;
+  }
+  .footer .contacts {
+    list-style-type: none;
+    margin-top: 5px;
+  }
+
+  .footer .contact .contacts {
+    text-decoration: none;
+  }
+
+  .social-list {
+    position: absolute;
+    top: 150px;
+    right: 50px;
+  }
+
+  .first-container {
+    text-align: start;
+    margin: 30px;
+  }
+
+  .row {
+    margin: 30px;
+  }
+
+  .images:hover {
+    color: transparent;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  .first-container-artists {
+    display: block;
+    justify-content: center;
+    padding-left: 10px;
+  }
+  .artist-explain {
+    margin: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  .artist {
+    display: block;
+    justify-self: center;
+    margin: 20px;
+  }
+  .artist-card {
+    margin-bottom: 0px;
+    z-index: 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .artist-overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 70%;
+    opacity: 0;
+    transition: transform 150ms ease-in cubic-bezier(0.015, 0.1, 0.05, 1);
+    margin-top: 40%;
+  }
+  .artist-overlay-explain {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 300;
+    font-size: 14px;
+    color: aliceblue;
+    line-height: 1.5;
+  }
+  .artist .artist-card:hover .artist-overlay {
+    transform: translateY(0);
+    opacity: 1;
+    transition: width 0.3s ease-in;
+    text-align: center;
+  }
 }
