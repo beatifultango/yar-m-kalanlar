@@ -391,6 +391,9 @@ footer {
   .menu-svg {
     right: 10px;
   }
+  .first-container {
+    margin: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
