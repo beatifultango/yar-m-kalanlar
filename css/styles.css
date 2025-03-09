@@ -388,6 +388,9 @@ footer {
     margin: 0;
     padding: 2rem;
   }
+  .menu-svg{
+    
+  }
 }
 
 @media screen and (min-width: 768px) {
