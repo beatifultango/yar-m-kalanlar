@@ -394,10 +394,12 @@ footer {
   .first-container {
     margin: 0;
     padding: 2rem;
-   
+
     width: 100%;
   }
-  .text-
+  .first-div {
+    text-align: center;
+  }
   .card-line {
     margin: 0;
     padding: 2rem;
