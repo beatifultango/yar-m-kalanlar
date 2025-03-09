@@ -393,6 +393,8 @@ footer {
   }
   .first-container {
     margin: 0;
+    padding: 2rem;
+    text-align: center;
   }
 }
 
