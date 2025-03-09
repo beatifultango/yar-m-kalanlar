@@ -394,10 +394,15 @@ footer {
   .first-container {
     margin: 0;
     padding: 2rem;
-    text-align: center !important;
+   
     width: 100%;
   }
+  .text-
   .card-line {
+    margin: 0;
+    padding: 2rem;
+  }
+  .footer {
     margin: 0;
     padding: 2rem;
   }
