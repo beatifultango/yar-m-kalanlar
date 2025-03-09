@@ -394,7 +394,8 @@ footer {
   .first-container {
     margin: 0;
     padding: 2rem;
-    text-align: center;
+    text-align: center !important;
+    width: 100%;
   }
 }
 
